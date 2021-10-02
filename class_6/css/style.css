@@ -4,17 +4,28 @@
 3. clear 
  */
 
-img{
-    width: 200px;
-    height:200px;
+i {
+    font-size: 5rem;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    display: inline-block;
     float: left;
 }
-p{
-    height: 500px;
-    width: 500px;
-    font-size: 25px;
-    float: left;
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 0;
+    background-color: green;
+    color: #fff;
+    transition-duration: 0.5s;
+    display: block;
 }
-.p2{
-    clear: left;
+ul li a:hover{
+    background: red;
 }
